@@ -20,7 +20,10 @@
     --fontSize: 16px;
     --borderBoxShadow: rgba(0, 0, 0, .05) 0px 6px 24px 0px, rgba(0, 0, 0, .08) 0px 0px 0px 1px;
 }
-
+body
+{
+    background-color: #eff3f9;
+}
 /* Decoration */
 .red {
     border: 2px solid red;
@@ -212,7 +215,10 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-
+.slider-menu
+{
+    margin-bottom: 27px;
+}
 .space-around {
     justify-content: space-around;
 }
@@ -271,8 +277,11 @@ img {
 }
 
 .logo {
-    padding: 15px;
+    padding: 25px;
     margin-bottom: 18px;
+    background-color: white;
+    position: sticky;
+    top: 0;
 }
 
 h1 {
@@ -288,6 +297,7 @@ header{
     top: 0;
     overflow-y: scroll;
     scroll-behavior: smooth;
+    background-color: white;
 }
 
 header::-webkit-scrollbar
@@ -341,7 +351,7 @@ header::-webkit-scrollbar-thumb
     transition: all 0.5s;
     stroke: var(--darkgrey);
     color: var(--darkgrey);
-margin-bottom: 27px;
+margin-bottom: 19px;
 }
 
 .topic:hover {
