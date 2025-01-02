@@ -24,6 +24,10 @@ body
 {
     background-color: #eff3f9;
 }
+.container{
+    width: 90%;
+    margin: auto;
+}
 /* Decoration */
 .red {
     border: 2px solid red;
@@ -292,7 +296,7 @@ h1 {
     align-content: center;
 }
 header{
-    position: fixed;
+    position: sticky;
     height: 100vh;
     top: 0;
     overflow-y: scroll;
@@ -397,4 +401,11 @@ margin-bottom: 19px;
     align-content: center;
     font-size: 11px;
     color: #ee368c;
+}
+
+/* search bar */
+.search-bar
+{
+    margin-top: 30px 0px;
+    padding: 25px;
 }
