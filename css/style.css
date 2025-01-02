@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: var(--outfit);
 }
 
 :root {
@@ -72,22 +73,27 @@ a {
     width: 15%;
     padding: 0px 10px;
 }
+
 .w-16 {
     width: 16%;
     padding: 0px 10px;
 }
+
 .w-17 {
     width: 17%;
     padding: 0px 10px;
 }
+
 .w-18 {
     width: 18%;
     padding: 0px 10px;
 }
+
 .w-19 {
     width: 19%;
     padding: 0px 10px;
 }
+
 .w-20 {
     width: 20%;
     padding: 0px 10px;
@@ -258,6 +264,7 @@ img {
 }
 
 /* header */
+
 .logo-icon {
     width: 40px;
     margin-right: 10px;
@@ -265,15 +272,119 @@ img {
 
 .logo {
     padding: 15px;
+    margin-bottom: 18px;
 }
 
 h1 {
     font-family: var(--outfit);
     color: var(--darkgrey);
     font-weight: 600;
+    font-size: 24px;
+    align-content: center;
 }
-.fa-bars
+header{
+    position: fixed;
+    height: 100vh;
+    top: 0;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+header::-webkit-scrollbar
 {
+	width: 5px;
+	background-color: transparent;
+}
+
+header::-webkit-scrollbar-thumb
+{
+	background-color: var(--lightgrey);
+    border-radius: 15px;
+}
+
+.navigation {
+    padding: 0px 15px;
+}
+
+.fa-bars {
 
     color: var(--darkgrey);
+}
+
+
+.title {
+    color: var(--lightgrey);
+    text-transform: uppercase;
+    margin-bottom: 19px;
+}
+
+.title h3 {
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.dash {
+    fill: var(--lightgrey);
+    margin-right: 5px;
+}
+
+.icon {
+    margin-right: 5px;
+    width: 20px;
+}
+
+.list:hover .icon {
+    stroke: var(--lightblue);
+}
+
+.topic {
+    transition: all 0.5s;
+    stroke: var(--darkgrey);
+    color: var(--darkgrey);
+margin-bottom: 27px;
+}
+
+.topic:hover {
+    color: var(--lightblue);
+    stroke: var(--lightblue);
+    fill: var(--lightblue);
+}
+
+.more-1 {
+    width: 17px;
+    height: 17px;
+    background-color: #757fef1a;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+    font-size: 11px;
+    align-content: center;
+    color: var(--lightblue);
+}
+
+.more-2 {
+    width: 17px;
+    height: 17px;
+    background-color: #757fef1a;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+    align-content: center;
+    font-size: 11px;
+    color: #00b69b;
+}
+
+.more-3 {
+    width: 17px;
+    height: 17px;
+    background-color: #757fef1a;
+    border-radius: 100%;
+    text-align: center;
+    font-weight: 600;
+    margin-right: 5px;
+    align-content: center;
+    font-size: 11px;
+    color: #ee368c;
 }
