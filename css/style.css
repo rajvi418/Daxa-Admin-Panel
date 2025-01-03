@@ -10,7 +10,7 @@
     --darkgrey: #475569;
     --lightblue: #0f79f3;
     --lightgrey: #919aa3;
-    --offwhite:#f4f6fc;
+    --offwhite: #f4f6fc;
     --purple: #796df6;
     --dangerColor: #e74c3c;
     --infoColor: #00cae3;
@@ -18,17 +18,19 @@
     --successColor: #2ed47e;
     --whiteColor: #ffffff;
     --transition: .5s;
-    --fontSize: 16px;
     --borderBoxShadow: rgba(0, 0, 0, .05) 0px 6px 24px 0px, rgba(0, 0, 0, .08) 0px 0px 0px 1px;
 }
-body
-{
+
+body {
     background-color: #eff3f9;
 }
-.container{
+
+.container {
     width: 100%;
     margin: auto;
+    padding: 10px 10px;
 }
+
 /* Decoration */
 .red {
     border: 2px solid red;
@@ -220,10 +222,11 @@ a {
     display: flex;
     flex-wrap: wrap;
 }
-.slider-menu
-{
+
+.slider-menu {
     margin-bottom: 27px;
 }
+
 .space-around {
     justify-content: space-around;
 }
@@ -247,10 +250,11 @@ a {
 .align-center {
     align-items: center;
 }
-.self-center
-{
+
+.self-center {
     align-self: center;
 }
+
 .justify-center {
     display: flex;
     justify-content: center;
@@ -299,7 +303,8 @@ h1 {
     font-size: 24px;
     align-content: center;
 }
-header{
+
+header {
     position: sticky;
     height: 100vh;
     top: 0;
@@ -308,15 +313,13 @@ header{
     background-color: white;
 }
 
-header::-webkit-scrollbar
-{
-	width: 5px;
-	background-color: transparent;
+header::-webkit-scrollbar {
+    width: 5px;
+    background-color: transparent;
 }
 
-header::-webkit-scrollbar-thumb
-{
-	background-color: var(--lightgrey);
+header::-webkit-scrollbar-thumb {
+    background-color: var(--lightgrey);
     border-radius: 15px;
 }
 
@@ -359,7 +362,7 @@ header::-webkit-scrollbar-thumb
     transition: all 0.5s;
     stroke: var(--darkgrey);
     color: var(--darkgrey);
-margin-bottom: 19px;
+    margin-bottom: 19px;
 }
 
 .topic:hover {
@@ -408,15 +411,14 @@ margin-bottom: 19px;
 }
 
 /* search bar */
-.search-bar
-{
-    margin-top: 30px 0px;
+.search-bar {
     padding: 12px;
     background-color: var(--whiteColor);
     border-radius: 10px;
+    margin: 10px 5px;
 }
-.search
-{
+
+.search {
     width: 25%;
     padding: 1px 15px 1px 20px;
     border-radius: 5px;
@@ -424,12 +426,12 @@ margin-bottom: 19px;
     align-items: center;
     background-color: var(--offwhite);
 }
-.search-icon
-{
+
+.search-icon {
     color: var(--darkgrey);
 }
-.search-box
-{
+
+.search-box {
     border: none;
     background-color: transparent;
     font-size: 14px;
@@ -439,30 +441,28 @@ margin-bottom: 19px;
     color: var(--lightgrey);
 }
 
-.more-options
-{
+.more-options {
     width: 25%;
     display: flex;
     align-items: center;
     color: var(--darkgrey);
     font-weight: 600;
-    justify-content:space-between ;
+    justify-content: space-between;
 }
 
-.online
-{
+.online {
     position: relative;
     z-index: 1;
     display: flex;
     align-items: center;
 }
-.admin
-{
-   height: 40px;
-   width: 40px;
+
+.admin {
+    height: 40px;
+    width: 40px;
 }
-.dot
- {
+
+.dot {
     width: 10px;
     height: 10px;
     z-index: 2;
@@ -472,8 +472,213 @@ margin-bottom: 19px;
     border: 2px solid white;
     border-radius: 100%;
     background-color: green;
- }
- .down-arrow
- {
+}
+
+.down-arrow {
     margin-left: 7px;
- }
+}
+
+.left-side {
+    width: 50%;
+    padding-right: 15px;
+}
+
+.dashboard {
+    padding: 10px 0px;
+}
+
+.total-sales {
+    padding: 20px;
+    color: var(--darkgrey);
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    margin-bottom: 20px;
+
+}
+
+.total-sales span:nth-child(1) h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.total-sales span:nth-child(2) h5 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.total-sales .fa-angle-down {
+    color: var(--lightblue);
+}
+
+.chart {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--lightgrey);
+}
+
+.orders .fa-circle {
+    color: #796df6;
+    margin-right: 8px;
+}
+
+.sales .fa-circle {
+    color: #00cae3;
+    margin-right: 8px;
+}
+
+.graph {
+    padding: 15px;
+}
+
+.right-side {
+    width: 50%;
+    padding-left: 15px;
+}
+
+.total-revenue {
+    padding: 20px;
+    color: var(--darkgrey);
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.total-revenue h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+
+.total-revenue .amount {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.total-revenue .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.coin {
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--warningColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.coin h1 {
+    font-size: 40px;
+    color: var(--whiteColor);
+}
+
+.total-revenue .bottom {
+    width: 100%;
+    margin-top: 23px;
+}
+
+.grow {
+    width: 62px;
+    height: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    font-size: 14px;
+    border: 1px solid var(--successColor);
+    color: var(--successColor);
+    background-color: #2ed47e1a;
+}
+
+.profit {
+    padding: 20px;
+    color: var(--darkgrey);
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.profit span:nth-child(1) h4 {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.profit span:nth-child(2) h5 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.profit .fa-angle-down {
+    color: var(--lightblue);
+}
+
+.chart {
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--lightgrey);
+}
+
+.graph {
+    padding: 15px;
+}
+
+.right-side {
+    width: 50%;
+    padding-left: 15px;
+}
+.profit .top{
+    margin-bottom: 20px;
+}
+.profit .amount {
+    font-size: 26px;
+    font-weight: 500;
+}
+.profit .bottom{
+    padding: 15px;
+}
+
+.left
+{
+    width: 50%;
+}
+.best-seller
+{
+    padding: 20px;
+    color: var(--darkgrey);
+    background-color: #ddddef;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+.best-seller h5
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 20px;
+}
+
+.left h5
+{
+    margin-bottom: 12px;
+    color:var(--purple);
+}
+.left h3
+{
+    font-size: 26px;
+}
+.left p
+{
+    font-size: 16px;
+    color: var(--lightgrey);
+    align-self: end;
+    padding-bottom: 3px;
+}
+.left a h6{
+    font-size: 16px;
+    text-decoration: underline;
+    color: var(--darkgrey);
+    font-weight: 500;
+}
