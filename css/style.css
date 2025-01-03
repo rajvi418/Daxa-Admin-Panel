@@ -10,6 +10,7 @@
     --darkgrey: #475569;
     --lightblue: #0f79f3;
     --lightgrey: #919aa3;
+    --offwhite:#f4f6fc;
     --purple: #796df6;
     --dangerColor: #e74c3c;
     --infoColor: #00cae3;
@@ -25,7 +26,7 @@ body
     background-color: #eff3f9;
 }
 .container{
-    width: 90%;
+    width: 100%;
     margin: auto;
 }
 /* Decoration */
@@ -246,7 +247,10 @@ a {
 .align-center {
     align-items: center;
 }
-
+.self-center
+{
+    align-self: center;
+}
 .justify-center {
     display: flex;
     justify-content: center;
@@ -407,5 +411,69 @@ margin-bottom: 19px;
 .search-bar
 {
     margin-top: 30px 0px;
-    padding: 25px;
+    padding: 12px;
+    background-color: var(--whiteColor);
+    border-radius: 10px;
 }
+.search
+{
+    width: 25%;
+    padding: 1px 15px 1px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    background-color: var(--offwhite);
+}
+.search-icon
+{
+    color: var(--darkgrey);
+}
+.search-box
+{
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    line-height: 40px;
+    padding-left: 20px;
+    padding-right: 10px;
+    color: var(--lightgrey);
+}
+
+.more-options
+{
+    width: 25%;
+    display: flex;
+    align-items: center;
+    color: var(--darkgrey);
+    font-weight: 600;
+    justify-content:space-between ;
+}
+
+.online
+{
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+}
+.admin
+{
+   height: 40px;
+   width: 40px;
+}
+.dot
+ {
+    width: 10px;
+    height: 10px;
+    z-index: 2;
+    bottom: 2%;
+    right: 30%;
+    position: absolute;
+    border: 2px solid white;
+    border-radius: 100%;
+    background-color: green;
+ }
+ .down-arrow
+ {
+    margin-left: 7px;
+ }
