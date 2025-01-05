@@ -205,6 +205,14 @@ a {
 }
 
 /* padding */
+.py-10
+{
+    padding: 10px 0px;
+}
+.py-15
+{
+    padding: 15px 0px;
+}
 .py-100 {
     padding: 100px 0px;
 }
@@ -492,7 +500,7 @@ header::-webkit-scrollbar-thumb {
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 
 }
 
@@ -540,7 +548,7 @@ header::-webkit-scrollbar-thumb {
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .total-revenue h4 {
@@ -643,7 +651,7 @@ header::-webkit-scrollbar-thumb {
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 
 .profit span:nth-child(1) h4 {
@@ -695,7 +703,7 @@ header::-webkit-scrollbar-thumb {
     color: var(--darkgrey);
     background-color: #ddddef;
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
 }
 .best-seller .left 
 {
@@ -736,5 +744,37 @@ header::-webkit-scrollbar-thumb {
     color: var(--whiteColor);
     background-color: var(--purple);
     border-radius: 15px;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+}
+.sales-overview  h4 {
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.sales-overview  h6 {
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.sales-overview .amount {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.sales-overview .top {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sales-overview .bottom p{
+    color: var(--whiteColor);
+    font-size: 14px;
+}
+.range
+{
+    width: 100%;
+}
+.graph-3
+{
+    width: 94%;
 }
