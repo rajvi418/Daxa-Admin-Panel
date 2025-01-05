@@ -559,7 +559,14 @@ header::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-between;
 }
-
+.total-revenue .bottom p{
+    color: var(--lightgrey);
+    font-size: 14px;
+}
+.total-revenue .purchase
+{
+    background-color: var(--lightblue);
+}
 .coin {
     width: 75px;
     height: 75px;
@@ -592,7 +599,45 @@ header::-webkit-scrollbar-thumb {
     color: var(--successColor);
     background-color: #2ed47e1a;
 }
+.purchase
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--warningColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.purchase h1 {
+    font-size: 40px;
+    color: var(--whiteColor);
+}
+.loss
+{
+    width: 62px;
+    height: 22px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
+    font-size: 14px;
+    border: 1px solid var(--dangerColor);
+    color: var(--dangerColor);
+    background-color: #e74c3c1a;
+}
+.customers
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--infoColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    fill: var(--offwhite);
+}
 .profit {
     padding: 20px;
     color: var(--darkgrey);
@@ -652,7 +697,10 @@ header::-webkit-scrollbar-thumb {
     border-radius: 15px;
     margin-bottom: 20px;
 }
-
+.best-seller .left 
+{
+    border: 2px solid yellow;
+}
 .best-seller h5
 {
     font-size: 18px;
@@ -676,9 +724,17 @@ header::-webkit-scrollbar-thumb {
     align-self: end;
     padding-bottom: 3px;
 }
-.left a h6{
+.left .bottom a h6{
     font-size: 16px;
     text-decoration: underline;
     color: var(--darkgrey);
     font-weight: 500;
+}
+.sales-overview
+{
+    padding: 20px;
+    color: var(--whiteColor);
+    background-color: var(--purple);
+    border-radius: 15px;
+    margin-bottom: 20px;
 }
