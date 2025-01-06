@@ -200,19 +200,24 @@ a {
     padding: 0px 10px;
 }
 
+.w-100 {
+    width: 100%;
+    /* padding: 0px 10px; */
+}
+
 .mx-auto {
     margin: auto;
 }
 
 /* padding */
-.py-10
-{
+.py-10 {
     padding: 10px 0px;
 }
-.py-15
-{
+
+.py-15 {
     padding: 15px 0px;
 }
+
 .py-100 {
     padding: 100px 0px;
 }
@@ -500,7 +505,7 @@ header::-webkit-scrollbar-thumb {
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 
 }
 
@@ -517,38 +522,24 @@ header::-webkit-scrollbar-thumb {
 .total-sales .fa-angle-down {
     color: var(--lightblue);
 }
-
+.total-sales .graph
+{
+    padding: 23px;
+}
 .chart {
     font-size: 14px;
     font-weight: 400;
     color: var(--lightgrey);
 }
 
-.orders .fa-circle {
-    color: #796df6;
-    margin-right: 8px;
-}
 
-.sales .fa-circle {
-    color: #00cae3;
-    margin-right: 8px;
-}
-
-.graph {
-    padding: 15px;
-}
-
-.right-side {
-    width: 50%;
-    padding-left: 15px;
-}
 
 .total-revenue {
     padding: 20px;
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .total-revenue h4 {
@@ -567,14 +558,16 @@ header::-webkit-scrollbar-thumb {
     display: flex;
     justify-content: space-between;
 }
-.total-revenue .bottom p{
+
+.total-revenue .bottom p {
     color: var(--lightgrey);
     font-size: 14px;
 }
-.total-revenue .purchase
-{
+
+.total-revenue .purchase {
     background-color: var(--lightblue);
 }
+
 .coin {
     width: 75px;
     height: 75px;
@@ -595,35 +588,9 @@ header::-webkit-scrollbar-thumb {
     margin-top: 23px;
 }
 
-.grow {
-    width: 62px;
-    height: 22px;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    padding: 3px;
-    font-size: 14px;
-    border: 1px solid var(--successColor);
-    color: var(--successColor);
-    background-color: #2ed47e1a;
-}
-.purchase
-{
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    background-color: var(--warningColor);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
-.purchase h1 {
-    font-size: 40px;
-    color: var(--whiteColor);
-}
-.loss
-{
+
+.loss {
     width: 62px;
     height: 22px;
     display: flex;
@@ -635,23 +602,13 @@ header::-webkit-scrollbar-thumb {
     color: var(--dangerColor);
     background-color: #e74c3c1a;
 }
-.customers
-{
-    width: 75px;
-    height: 75px;
-    border-radius: 100%;
-    background-color: var(--infoColor);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    fill: var(--offwhite);
-}
+
 .profit {
     padding: 20px;
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
 }
 
 .profit span:nth-child(1) h4 {
@@ -682,99 +639,171 @@ header::-webkit-scrollbar-thumb {
     width: 50%;
     padding-left: 15px;
 }
-.profit .top{
+
+.profit .top {
     margin-bottom: 20px;
 }
+
 .profit .amount {
     font-size: 26px;
     font-weight: 500;
 }
-.profit .bottom{
+
+.profit .bottom {
     padding: 15px;
 }
 
-.left
-{
-    width: 50%;
-}
-.best-seller
-{
-    padding: 20px;
-    color: var(--darkgrey);
+.best-seller {
     background-color: #ddddef;
-    border-radius: 15px;
-    margin-bottom: 30px;
-}
-.best-seller .left 
-{
-    border: 2px solid yellow;
-}
-.best-seller h5
-{
-    font-size: 18px;
-    font-weight: 500;
-    margin-bottom: 20px;
+    border-radius: 10px;
+    padding: 20px 20px 0px 20px;
+    font-family: var(--outfit);
 }
 
-.left h5
-{
+.best-seller h5 {
+    font-size: 18px;
+    font-weight: 500;
     margin-bottom: 12px;
-    color:var(--purple);
 }
-.left h3
+
+.best-seller .w-50 {
+    padding: 0;
+}
+
+.best-seller-content .row {
+    height: 180px;
+    align-content: space-between;
+    font-weight: 500;
+}
+
+.best-seller-content h5 {
+    /* height: 200px; */
+    font-size: 18px;
+    color: var(--purple);
+}
+.best-seller-content p 
 {
-    font-size: 26px;
+    font-size: 25px;
+    color: var(--darkgrey);
 }
-.left p
+.best-seller-content p span
 {
     font-size: 16px;
     color: var(--lightgrey);
-    align-self: end;
-    padding-bottom: 3px;
 }
-.left .bottom a h6{
-    font-size: 16px;
-    text-decoration: underline;
+.best-seller-content h6 {
     color: var(--darkgrey);
+    text-decoration: underline;
+    font-size: 16px;
     font-weight: 500;
 }
-.sales-overview
+.best-seller-image img
 {
-    padding: 20px;
-    color: var(--whiteColor);
-    background-color: var(--purple);
-    border-radius: 15px;
-    margin-bottom: 30px;
+    width: 180px;
+    height: 196px;
+    transform: translateY(4px);
 }
-.sales-overview  h4 {
+.total-orders {
+    padding: 20px;
+    color: var(--darkgrey);
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    margin-bottom: 2px;
+}
+.total-orders .left h4
+{
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.sales-overview  h6 {
+.total-orders .left .amount
+{
+    font-size: 26px;
+    font-weight: 500;
+}
+.total-orders .bottom
+{
+    margin-top: 23px;
+}
+.total-orders .bottom span
+{
     font-size: 14px;
-    font-weight: 500;
+    color: var(--lightgrey);
 }
-
-.sales-overview .amount {
-    font-size: 20px;
-    font-weight: 500;
+.total-orders .bottom .grow
+{
+    color: var(--successColor);
 }
-
-.sales-overview .top {
-    width: 100%;
+.grow {
+    width: 62px;
+    height: 22px;
     display: flex;
-    justify-content: space-between;
-}
-.sales-overview .bottom p{
-    color: var(--whiteColor);
+    justify-content: space-around;
+    align-items: center;
+    padding: 3px;
     font-size: 14px;
+    border: 1px solid var(--successColor);
+    color: var(--successColor);
+    background-color: #2ed47e1a;
 }
-.range
+.purchase
 {
-    width: 100%;
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--lightblue);
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.graph-3
+.purchase .bi-bag-heart
 {
-    width: 94%;
+    color: var(--offwhite);
+    font-size: 38px;
 }
+
+.total-customers
+{
+    padding: 20px;
+    color: var(--darkgrey);
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+.total-customers .left h4
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.total-customers .customers
+{
+    width: 75px;
+    height: 75px;
+    border-radius: 100%;
+    background-color: var(--infoColor);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.total-customers .customers svg{
+    fill: var(--offwhite);
+}
+.total-customers  .amount {
+    font-size: 26px;
+    font-weight: 500;
+}
+.total-customers .bottom
+{
+    margin-top: 23px;
+}
+.graph {
+    padding: 15px;
+}
+
+.right-side {
+    width: 50%;
+    padding-left: 15px;
+}
+
+/* alignment krvanu che badha j boxes naa */
