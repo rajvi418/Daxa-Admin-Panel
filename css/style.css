@@ -524,7 +524,7 @@ header::-webkit-scrollbar-thumb {
 }
 .total-sales .graph
 {
-    padding: 23px;
+    padding: 10px;
 }
 .chart {
     font-size: 14px;
@@ -708,7 +708,7 @@ header::-webkit-scrollbar-thumb {
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
-    margin-bottom: 2px;
+    margin-bottom: 25px;
 }
 .total-orders .left h4
 {
@@ -806,4 +806,79 @@ header::-webkit-scrollbar-thumb {
     padding-left: 15px;
 }
 
+
+.sales-overview
+{
+    border: none;
+    background-color: var(--purple);
+    border-radius: 15px;
+    color: var(--offwhite);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.sales-overview h4
+{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 12px;
+}
+.sales-overview h6
+{
+    font-size: 14px;
+    font-weight: 500;
+}
+.sales-overview .amount
+{
+    font-size: 20px;
+    font-weight: 500;
+}
+.sales
+{
+    margin-bottom: 14px;
+}
+.overview
+{
+    width: 100%;
+    height: 2px;
+    background-color: #6258cc;
+    position: relative;
+    margin-bottom: 6px;
+}
+.overview::before
+{
+    content: "";
+    width: 70%;
+    height: 2px;
+    background-color: var(--offwhite);
+    position: absolute;
+}
+.Average-Daily-Sales
+{
+    border: none;
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    color: var(--darkgrey);
+    padding: 20px;
+    margin-bottom: 25px;
+}
+.Average-Daily-Sales h4
+{
+    font-size: 18px;
+    font-weight: 500;
+}
+.Average-Daily-Sales .top div
+{
+    align-content: center;
+    margin-bottom: 12px;
+}
+.Average-Daily-Sales .top .amount
+{
+    font-size: 26px;
+    font-weight: 500;
+}
+.Average-Daily-Sales .bottom
+{
+    padding: 13px;
+}
 /* alignment krvanu che badha j boxes naa */
+/* total sales na orders and sales na dots color and align krvana che */
