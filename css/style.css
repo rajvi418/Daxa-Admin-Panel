@@ -1018,9 +1018,11 @@ header::-webkit-scrollbar-thumb {
     font-weight: 300;
     color: #919aa3;
     font-size: 16px;
-    
 }
-.product-list .product img {
+.text-end{
+    text-align: end;
+}
+.product-list  .img {
     height: 50px;
     width: 50px;
     margin-right: 12px;
