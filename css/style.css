@@ -1041,4 +1041,34 @@ header::-webkit-scrollbar-thumb {
     color: var(--lightgrey);
 }
 
+.top-selling .bottom .right .box
+{
+    height: 35px;
+    width: 35px;
+    border: 1px solid #919aa3;
+    color: var(--lightgrey);
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+}
+.top-selling .bottom .right .box-1
+{
+    margin-right: 5px;
+    margin-left: 8px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #919aa3;
+    color: var(--lightgrey);
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+}
+.top-selling .bottom
+{
+    color: var(--lightgrey);
+} 
+.top-selling .bottom .left .sort-down
+{
+    margin-bottom: 8px;
+}
 /* total sales na orders and sales na dots color and align krvana che */
