@@ -210,6 +210,10 @@ a {
 }
 
 /* padding */
+.py-0
+{
+    padding: 0px;
+}
 .py-10 {
     padding: 10px 0px;
 }
@@ -276,7 +280,10 @@ a {
 .justify-end {
     justify-content: end;
 }
-
+.justify-start
+{
+    justify-content: start;
+}
 img {
     width: 100%;
 }
@@ -522,10 +529,11 @@ header::-webkit-scrollbar-thumb {
 .total-sales .fa-angle-down {
     color: var(--lightblue);
 }
-.total-sales .graph
-{
+
+.total-sales .graph {
     padding: 10px;
 }
+
 .chart {
     font-size: 14px;
     font-weight: 400;
@@ -681,28 +689,30 @@ header::-webkit-scrollbar-thumb {
     font-size: 18px;
     color: var(--purple);
 }
-.best-seller-content p 
-{
+
+.best-seller-content p {
     font-size: 25px;
     color: var(--darkgrey);
 }
-.best-seller-content p span
-{
+
+.best-seller-content p span {
     font-size: 16px;
     color: var(--lightgrey);
 }
+
 .best-seller-content h6 {
     color: var(--darkgrey);
     text-decoration: underline;
     font-size: 16px;
     font-weight: 500;
 }
-.best-seller-image img
-{
+
+.best-seller-image img {
     width: 180px;
     height: 196px;
     transform: translateY(4px);
 }
+
 .total-orders {
     padding: 20px;
     color: var(--darkgrey);
@@ -710,30 +720,31 @@ header::-webkit-scrollbar-thumb {
     border-radius: 15px;
     margin-bottom: 25px;
 }
-.total-orders .left h4
-{
+
+.total-orders .left h4 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.total-orders .left .amount
-{
+
+.total-orders .left .amount {
     font-size: 26px;
     font-weight: 500;
 }
-.total-orders .bottom
-{
+
+.total-orders .bottom {
     margin-top: 23px;
 }
-.total-orders .bottom span
-{
+
+.total-orders .bottom span {
     font-size: 14px;
     color: var(--lightgrey);
 }
-.total-orders .bottom .grow
-{
+
+.total-orders .bottom .grow {
     color: var(--successColor);
 }
+
 .grow {
     width: 62px;
     height: 22px;
@@ -746,8 +757,8 @@ header::-webkit-scrollbar-thumb {
     color: var(--successColor);
     background-color: #2ed47e1a;
 }
-.purchase
-{
+
+.purchase {
     width: 75px;
     height: 75px;
     border-radius: 100%;
@@ -756,28 +767,27 @@ header::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
 }
-.purchase .bi-bag-heart
-{
+
+.purchase .bi-bag-heart {
     color: var(--offwhite);
     font-size: 38px;
 }
 
-.total-customers
-{
+.total-customers {
     padding: 20px;
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
     margin-bottom: 25px;
 }
-.total-customers .left h4
-{
+
+.total-customers .left h4 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 10px;
 }
-.total-customers .customers
-{
+
+.total-customers .customers {
     width: 75px;
     height: 75px;
     border-radius: 100%;
@@ -786,17 +796,20 @@ header::-webkit-scrollbar-thumb {
     align-items: center;
     justify-content: center;
 }
-.total-customers .customers svg{
+
+.total-customers .customers svg {
     fill: var(--offwhite);
 }
-.total-customers  .amount {
+
+.total-customers .amount {
     font-size: 26px;
     font-weight: 500;
 }
-.total-customers .bottom
-{
+
+.total-customers .bottom {
     margin-top: 23px;
 }
+
 .graph {
     padding: 15px;
 }
@@ -807,8 +820,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 
-.sales-overview
-{
+.sales-overview {
     border: none;
     background-color: var(--purple);
     border-radius: 15px;
@@ -816,44 +828,44 @@ header::-webkit-scrollbar-thumb {
     padding: 20px;
     margin-bottom: 25px;
 }
-.sales-overview h4
-{
+
+.sales-overview h4 {
     font-size: 18px;
     font-weight: 500;
     margin-bottom: 12px;
 }
-.sales-overview h6
-{
+
+.sales-overview h6 {
     font-size: 14px;
     font-weight: 500;
 }
-.sales-overview .amount
-{
+
+.sales-overview .amount {
     font-size: 20px;
     font-weight: 500;
 }
-.sales
-{
+
+.sales {
     margin-bottom: 14px;
 }
-.overview
-{
+
+.overview {
     width: 100%;
     height: 2px;
     background-color: #6258cc;
     position: relative;
     margin-bottom: 6px;
 }
-.overview::before
-{
+
+.overview::before {
     content: "";
     width: 70%;
     height: 2px;
     background-color: var(--offwhite);
     position: absolute;
 }
-.Average-Daily-Sales
-{
+
+.Average-Daily-Sales {
     border: none;
     background-color: var(--whiteColor);
     border-radius: 15px;
@@ -861,27 +873,27 @@ header::-webkit-scrollbar-thumb {
     padding: 20px;
     margin-bottom: 25px;
 }
-.Average-Daily-Sales h4
-{
+
+.Average-Daily-Sales h4 {
     font-size: 18px;
     font-weight: 500;
 }
-.Average-Daily-Sales .top div
-{
+
+.Average-Daily-Sales .top div {
     align-content: center;
     margin-bottom: 12px;
 }
-.Average-Daily-Sales .top .amount
-{
+
+.Average-Daily-Sales .top .amount {
     font-size: 26px;
     font-weight: 500;
 }
-.Average-Daily-Sales .bottom
-{
+
+.Average-Daily-Sales .bottom {
     padding: 12px 12px 11px 12px;
 }
-.new-customers
-{
+
+.new-customers {
     border: none;
     background-color: var(--whiteColor);
     border-radius: 15px;
@@ -889,70 +901,70 @@ header::-webkit-scrollbar-thumb {
     padding: 20px;
     margin-bottom: 25px;
 }
-.new-customers h4
-{
+
+.new-customers h4 {
     font-size: 18px;
     font-weight: 500;
 }
-.new-customers .top
-{
+
+.new-customers .top {
     margin-bottom: 16px;
 }
-.new-customers .amount
-{
+
+.new-customers .amount {
     font-size: 26px;
     font-weight: 500;
 }
-.new-customers .bottom span
-{
+
+.new-customers .bottom span {
     color: var(--lightgrey);
 }
-.new-customers .bottom
-{
+
+.new-customers .bottom {
     margin-top: 68px;
 }
-.new-customers .bottom .images
-{
+
+.new-customers .bottom .images {
     margin-top: 10px;
 
 }
-.new-customers .bottom .images img
-{
+
+.new-customers .bottom .images img {
     height: 52px;
     width: 52px;
     align-content: center;
 }
-.images .img-1 img
-{
+
+.images .img-1 img {
     border: 3px solid white;
     border-radius: 100%;
 }
-.images .img-2 img
-{
+
+.images .img-2 img {
     border: 3px solid white;
     border-radius: 100%;
     transform: translateX(-20px);
 }
-.images .img-3 img
-{
+
+.images .img-3 img {
     border: 3px solid white;
     border-radius: 100%;
     transform: translateX(-40px);
 }
-.images .img-4 img
-{
+
+.images .img-4 img {
     border: 3px solid white;
     border-radius: 100%;
     transform: translateX(-60px);
 }
-.images .img-5 img
-{
+
+.images .img-5 img {
     border: 3px solid white;
     border-radius: 100%;
     transform: translateX(-80px);
 }
-.images .plus-img
-{
+
+.images .plus-img {
     height: 52px;
     width: 52px;
     border: 3px solid white;
@@ -963,23 +975,68 @@ header::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
 }
-.images .plus-img span
-{
+
+.images .plus-img span {
     color: var(--offwhite);
     font-size: 16px;
 }
 
 
-.top-selling
-{
-    background-color: var(--offwhite);
+.top-selling {
+    background-color: var(--whiteColor);
     padding: 20px;
     border-radius: 15px;
 }
-.top-selling .top h4
-{
+
+.top-selling .top h4 {
     color: var(--darkgrey);
     font-weight: 500;
     font-size: 18px;
 }
+
+.top-selling .top h5 {
+    color: var(--darkgrey);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.top-selling .top .down-arrow {
+    color: var(--lightblue);
+}
+
+.selling-products {
+    padding: 20px 0px;
+}
+
+.product-list {
+    border-bottom: 1px dashed var(--lightgrey);
+    padding: 15px 0px;
+    
+}
+
+.product-list .numbers {
+    font-weight: 300;
+    color: #919aa3;
+    font-size: 16px;
+    
+}
+.product-list .product img {
+    height: 50px;
+    width: 50px;
+    margin-right: 12px;
+}
+
+.product-list .details h6 {
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--darkgrey);
+    margin-bottom: 5px;
+}
+
+.product-list .details p {
+    font-weight: 500;
+    font-size: 14px;
+    color: var(--lightgrey);
+}
+
 /* total sales na orders and sales na dots color and align krvana che */
