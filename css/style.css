@@ -709,7 +709,7 @@ header::-webkit-scrollbar-thumb {
 
 .best-seller-image img {
     width: 180px;
-    height: 196px;
+    height: 200px;
     transform: translateY(4px);
 }
 
@@ -899,7 +899,7 @@ header::-webkit-scrollbar-thumb {
     border-radius: 15px;
     color: var(--darkgrey);
     padding: 20px;
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .new-customers h4 {
@@ -921,7 +921,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .new-customers .bottom {
-    margin-top: 68px;
+    margin-top: 63px;
 }
 
 .new-customers .bottom .images {
