@@ -1225,4 +1225,51 @@ header::-webkit-scrollbar-thumb {
     color: var(--warningColor);
     margin-right: 2px;
 }
+
+.locations
+{
+    padding: 20px;
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+}
+.locations h5
+{
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--darkgrey);
+    margin-bottom: 25px;
+}
+.locations .world-map img
+{
+    height: 180px;
+    width:auto;
+}
+.locations .country
+{
+    margin-bottom: 8px;
+}
+.locations .country:last-child
+{
+    margin-bottom: 0px;
+}
+.locations .country .flag img
+{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+.locations .country .county-name h6
+{
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--lightgrey);
+    margin-right: 5px;
+}
+.locations .country .county-name p
+{
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--darkgrey);
+    margin-right: 5px;
+}
 /* total sales na orders and sales na dots color and align krvana che */
