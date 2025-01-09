@@ -1089,7 +1089,10 @@ header::-webkit-scrollbar-thumb {
 .top-selling .bottom .left .sort-down {
     margin-bottom: 8px;
 }
-
+.sales-profit
+{
+    margin-bottom: 25px;
+}
 .order-summary {
     background-color: var(--whiteColor);
     padding: 20px;
@@ -1271,5 +1274,47 @@ header::-webkit-scrollbar-thumb {
     font-size: 15px;
     color: var(--darkgrey);
     margin-right: 5px;
+}
+.world-revenue
+{
+    padding: 20px;
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+}
+.world-revenue .top {
+    margin-bottom: 20px;
+}
+
+.world-revenue .top h4 {
+    color: var(--darkgrey);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.world-revenue .top h5 {
+    color: var(--darkgrey);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.world-revenue .top .down-arrow {
+    color: var(--lightblue);
+}
+.world-revenue .income , .expenses p
+{
+    color: var(--lightgrey);
+    font-size: 14px;
+}
+.world-revenue .income .icon-2
+{
+    color: var(--purple);
+}
+.world-revenue .expenses .icon-2
+{
+    color: var(--infoColor);
+}
+.world-revenue .graph-4
+{
+    padding: 6px;
 }
 /* total sales na orders and sales na dots color and align krvana che */
