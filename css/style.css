@@ -218,7 +218,10 @@ a {
 .py-0 {
     padding: 0px;
 }
-
+.pyb-0
+{
+    padding-bottom: 0px;
+}
 .py-10 {
     padding: 10px 0px;
 }
@@ -332,7 +335,7 @@ img {
 }
 
 .logo {
-    padding: 25px;
+    padding: 25px 15px;
     margin-bottom: 18px;
     background-color: white;
     position: sticky;
@@ -1443,7 +1446,7 @@ tbody .rejected p {
     width: 8%;
 }
 
-.action td{
+.action td {
     text-align: right;
 }
 
@@ -1457,7 +1460,8 @@ tbody .rejected p {
 }
 
 .order-list .bottom {
-    padding: 15px 0px;
+    padding: 15px 15px;
+    color: var(--lightgrey);
 }
 
 .order-list .bottom .right .box {
@@ -1482,10 +1486,170 @@ tbody .rejected p {
     align-content: center;
 }
 
-.order-list .bottom {
+.order-list .bottom .left .sort-down {
+    margin-bottom: 8px;
+}
+
+.transactions-history {
+    padding: 20px;
+    background-color: var(--whiteColor);
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.transactions-history .top {
+    margin-bottom: 20px;
+}
+
+.transactions-history .top h4 {
+    color: var(--darkgrey);
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.transactions-history .top h5 {
+    color: var(--darkgrey);
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.transactions-history .top .down-arrow {
+    color: var(--lightblue);
+}
+
+.detail {
+    padding: 15px 0px 15px 0px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.detail:first-child {
+    padding: 5px 0px 15px 0px;
+    border-bottom: 1px dashed #e0e0e0;
+}
+
+.list-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    text-align: center;
+    align-content: center;
+    margin-right: 15px;
+}
+
+.refund-icon {
+    fill: var(--lightblue);
+    background-color: #dbeafd;
+}
+
+.bank-icon {
+    color: var(--dangerColor);
+    background-color: #fce4e2;
+}
+
+.card-icon {
+    color: var(--purple);
+    background-color: #ebe9fe;
+}
+
+.wallet-icon {
+    color: var(--infoColor);
+    background-color: #daf7fb;
+}
+
+.money-icon {
+    font-size: 20px;
+    color: var(--warningColor);
+    background-color: #fff4e8;
+}
+
+.cash-icon {
+    font-size: 20px;
+    color: var(--successColor);
+    background-color: #e0f8ea;
+}
+
+.transactions-list .list-detail .info h6 {
+    font-size: 18px;
+    font-weight: 400;
+    color: var(--darkgrey);
+    margin-bottom: 5px;
+}
+
+.transactions-list .list-detail .info p {
+    font-size: 14px;
+    font-weight: 500;
     color: var(--lightgrey);
 }
 
-.order-list .bottom .left .sort-down {
+.transactions-list .detail .profit-amount h6 {
+    color: var(--successColor);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.transactions-list .detail .loss-amount h6 {
+    color: var(--dangerColor);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.transactions-history .bottom {
+    padding-top: 15px;
+    color: var(--lightgrey);
+}
+
+.transactions-history .bottom .right .box {
+    height: 35px;
+    width: 35px;
+    border: 1px solid #919aa3;
+    color: var(--lightgrey);
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+}
+
+.transactions-history .bottom .right .box-1 {
+    margin-right: 5px;
+    margin-left: 8px;
+    height: 35px;
+    width: 35px;
+    border: 1px solid #919aa3;
+    color: var(--lightgrey);
+    border-radius: 3px;
+    text-align: center;
+    align-content: center;
+}
+
+.transactions-history .bottom .left .sort-down {
     margin-bottom: 8px;
+}
+
+footer {
+    padding: 25px;
+    background-color: var(--whiteColor);
+    border-radius: 15px 15px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-containt p .copyright .fa-copyright
+{
+    font-size: 12px;
+    color: var(--lightgrey);
+}
+.footer-containt p .daxa-logo
+{
+    font-size: 16px;
+    color: var(--darkgrey);
+}
+.footer-containt p .daxa-text
+{
+    font-size: 16px;
+    color: var(--lightgrey);
+}
+.footer-containt p .link a
+{
+    font-size: 16px;
+    color: var(--lightblue);
 }
