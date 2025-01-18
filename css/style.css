@@ -378,7 +378,18 @@ header::-webkit-scrollbar-thumb {
 
     color: var(--darkgrey);
 }
-
+.fa-solid , .fa-regular
+{
+    color: var(--darkgrey);
+}
+.bi
+{
+    color: var(--darkgrey);
+}
+.dash {
+    fill: var(--lightgrey);
+    margin-right: 5px;
+}
 
 .title {
     color: var(--lightgrey);
@@ -391,9 +402,17 @@ header::-webkit-scrollbar-thumb {
     font-size: 14px;
 }
 
-.dash {
-    fill: var(--lightgrey);
-    margin-right: 5px;
+.slider-menu .topic {
+    transition: all 0.5s;
+    stroke: var(--darkgrey);
+    color: var(--darkgrey);
+    margin-bottom: 19px;
+}
+
+.slider-menu .topic:hover{
+    color: var(--lightblue);
+    stroke: var(--lightblue);
+    fill: var(--lightblue);
 }
 
 .icon {
@@ -403,19 +422,6 @@ header::-webkit-scrollbar-thumb {
 
 .list:hover .icon {
     stroke: var(--lightblue);
-}
-
-.topic {
-    transition: all 0.5s;
-    stroke: var(--darkgrey);
-    color: var(--darkgrey);
-    margin-bottom: 19px;
-}
-
-.topic:hover {
-    color: var(--lightblue);
-    stroke: var(--lightblue);
-    fill: var(--lightblue);
 }
 
 .more-1 {
@@ -530,6 +536,7 @@ header::-webkit-scrollbar-thumb {
     padding-right: 10px;
 }
 
+/* dashboard */
 .dashboard {
     margin-bottom: 25px;
 }
@@ -1665,27 +1672,41 @@ footer {
     font-weight: 500;
     color: var(--darkgrey);
 }
-.calendar-dashboard i
-{
+
+.calendar-dashboard i {
     color: var(--lightblue);
 }
-.calendar-header .calendar-others h6 , i{
+
+.calendar-header .calendar-others h6,
+i {
     font-size: 15px;
     font-weight: 400;
     color: var(--lightgrey);
 }
-.calendar-header .calendar-others .calendar-page h6{
+
+.calendar-header .calendar-others .calendar-page h6 {
     font-size: 15px;
     font-weight: 400;
     color: var(--darkgrey);
 }
-.mega-calendar
-{
+
+.mega-calendar {
     background-color: var(--whiteColor);
     padding: 20px;
     border-radius: 15px;
 }
-.mega-calendar .calendar-others .today-btn
-{
-    
+
+.mega-calendar .calendar-others .today-btn button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #f9f9f9;
+    color: var(--lightgrey);
+}
+
+.mega-calendar .calendar-others .next-btns button {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #dae0ec;
+    border-radius: 3px;
+    background-color: transparent;
 }
