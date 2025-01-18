@@ -218,10 +218,11 @@ a {
 .py-0 {
     padding: 0px;
 }
-.pyb-0
-{
+
+.pyb-0 {
     padding-bottom: 0px;
 }
+
 .py-10 {
     padding: 10px 0px;
 }
@@ -1633,23 +1634,58 @@ footer {
     justify-content: center;
 }
 
-.footer-containt p .copyright .fa-copyright
-{
+.footer-containt p .copyright .fa-copyright {
     font-size: 12px;
     color: var(--lightgrey);
 }
-.footer-containt p .daxa-logo
-{
+
+.footer-containt p .daxa-logo {
     font-size: 16px;
     color: var(--darkgrey);
 }
-.footer-containt p .daxa-text
-{
+
+.footer-containt p .daxa-text {
     font-size: 16px;
     color: var(--lightgrey);
 }
-.footer-containt p .link a
-{
+
+.footer-containt p .link a {
     font-size: 16px;
     color: var(--lightblue);
+}
+
+
+/* Calendar Page */
+.calendar-header {
+    margin-bottom: 25px;
+}
+
+.calendar-header .calendar-title h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--darkgrey);
+}
+.calendar-dashboard i
+{
+    color: var(--lightblue);
+}
+.calendar-header .calendar-others h6 , i{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--lightgrey);
+}
+.calendar-header .calendar-others .calendar-page h6{
+    font-size: 15px;
+    font-weight: 400;
+    color: var(--darkgrey);
+}
+.mega-calendar
+{
+    background-color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 15px;
+}
+.mega-calendar .calendar-others .today-btn
+{
+    
 }
