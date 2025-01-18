@@ -533,7 +533,7 @@ header::-webkit-scrollbar-thumb {
 
 .left-side {
     width: 50%;
-    padding-right: 10px;
+    padding-right: 12.5px;
 }
 
 /* dashboard */
@@ -681,7 +681,7 @@ header::-webkit-scrollbar-thumb {
 
 .right-side {
     width: 50%;
-    padding-left: 10px;
+    padding-left: 12.5px;
 }
 
 .profit .top {
