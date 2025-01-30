@@ -1912,7 +1912,7 @@ i {
 
 .working-schedule-calendar
 {
-    height: 400px;
+    height: 300px;
     width: 100%;
     display: grid;
     grid-template-columns: repeat(7, 1fr);
