@@ -56,11 +56,12 @@ a {
     text-decoration: none;
     color: var(--darkgrey);
 }
+
 /* Text colors */
-.tc-lightgrey
-{
+.tc-lightgrey {
     color: var(--lightgrey);
 }
+
 /* Width */
 .w-3 {
     width: 3%;
@@ -79,143 +80,147 @@ a {
 
 .w-10 {
     width: 10%;
-    padding:10px;
+    padding: 10px;
 }
+
 .w-11 {
     width: 11%;
-    padding:10px;
+    padding: 10px;
 }
+
 .w-12 {
     width: 12%;
-    padding:10px;
+    padding: 10px;
 }
+
 .w-13 {
     width: 13%;
-    padding:10px;
+    padding: 10px;
 }
+
 .w-14 {
     width: 14%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-15 {
     width: 15%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-16 {
     width: 16%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-17 {
     width: 17%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-18 {
     width: 18%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-19 {
     width: 19%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-20 {
     width: 20%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-25 {
     width: 25%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-30 {
     width: 30%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-31 {
     width: 31%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-32 {
     width: 32%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-33 {
     width: 33%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-35 {
     width: 35%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-40 {
     width: 40%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-45 {
     width: 45%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-50 {
     width: 50%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-55 {
     width: 55%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-60 {
     width: 60%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-65 {
     width: 65%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-70 {
     width: 70%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-75 {
     width: 75%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-80 {
     width: 80%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-83 {
     width: 83%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-85 {
     width: 85%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-90 {
     width: 90%;
-    padding:10px;
+    padding: 10px;
 }
 
 .w-95 {
@@ -236,9 +241,11 @@ a {
 .fs-10 {
     font-size: 10px;
 }
+
 .fs-12 {
     font-size: 12px;
 }
+
 .fs-14 {
     font-size: 14px;
 }
@@ -431,20 +438,24 @@ header::-webkit-scrollbar-thumb {
     fill: var(--lightgrey);
     margin-right: 5px;
 }
-.fa-arrow-trend-up{
+
+.fa-arrow-trend-up {
     color: rgb(83, 248, 83);
 }
+
 .bi-calendar {
     width: 10px;
     height: 10px;
 }
-.bi-command
-{
-    color:black;
+
+.bi-command {
+    color: black;
 }
-.bi-cart2{
+
+.bi-cart2 {
     font-weight: 900;
 }
+
 .title {
     color: var(--lightgrey);
     text-transform: uppercase;
@@ -470,13 +481,15 @@ header::-webkit-scrollbar-thumb {
 .slider-menu .topic a i {
     transition: all 0.5s;
 }
+
 .slider-menu .topic a svg {
     transition: all 0.5s;
 }
-.slider-menu .topic:hover .angle-icons
-{
+
+.slider-menu .topic:hover .angle-icons {
     transition: all 0.5s;
 }
+
 .slider-menu .topic:hover,
 .slider-menu .topic:hover a,
 .slider-menu .topic:hover a i,
@@ -494,7 +507,8 @@ header::-webkit-scrollbar-thumb {
     margin-right: 5px;
     width: 20px;
 }
-.transactions-none{
+
+.transactions-none {
     transition: 0s;
 }
 
@@ -620,7 +634,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .total-sales {
-    padding: 20px;  
+    padding: 20px;
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
@@ -728,9 +742,11 @@ header::-webkit-scrollbar-thumb {
     color: var(--dangerColor);
     background-color: #e74c3c1a;
 }
+
 .fa-arrow-trend-down {
     color: var(--dangerColor);
 }
+
 .profit {
     padding: 20px;
     color: var(--darkgrey);
@@ -858,7 +874,8 @@ header::-webkit-scrollbar-thumb {
     color: var(--lightgrey);
 }
 
-.total-orders .bottom .grow ,.total-orders .bottom .grow i{
+.total-orders .bottom .grow,
+.total-orders .bottom .grow i {
     color: var(--successColor);
 }
 
@@ -1629,28 +1646,33 @@ tbody .rejected p {
     background-color: #dbeafd;
 }
 
-.bank-icon , .bank-icon i {
+.bank-icon,
+.bank-icon i {
     color: var(--dangerColor);
     background-color: #fce4e2;
 }
 
-.card-icon , .card-icon i{
+.card-icon,
+.card-icon i {
     color: var(--purple);
     background-color: #ebe9fe;
 }
 
-.wallet-icon ,.wallet-icon i {
+.wallet-icon,
+.wallet-icon i {
     color: var(--infoColor);
     background-color: #daf7fb;
 }
 
-.money-icon , .money-icon i {
+.money-icon,
+.money-icon i {
     font-size: 20px;
     color: var(--warningColor);
     background-color: #fff4e8;
 }
 
-.cash-icon , .cash-icon i   {
+.cash-icon,
+.cash-icon i {
     font-size: 20px;
     color: var(--successColor);
     background-color: #e0f8ea;
@@ -1774,6 +1796,7 @@ i {
     background-color: var(--whiteColor);
     padding: 20px;
     border-radius: 15px;
+    margin-bottom: 25px;
 }
 
 .mega-calendar .calendar-others .today-btn button {
@@ -1791,49 +1814,48 @@ i {
     background-color: transparent;
 }
 
-.calendar-body
-{
-    width:100%;
-    height:900px;
+.calendar-body {
+    width: 100%;
+    height: 900px;
     display: grid;
     color: var(--darkgrey);
-    grid-template-rows:50px repeat(6,1fr);
-    grid-template-columns: repeat(7,1fr);
+    grid-template-rows: 50px repeat(6, 1fr);
+    grid-template-columns: repeat(7, 1fr);
     border-top: 1px solid #919aa32b;
     border-right: 1px solid #919aa32b;
 }
-.calendar-days
-{
-    width:100%;
-    height:100%;
+
+.calendar-days {
+    width: 100%;
+    height: 100%;
     align-content: center;
     text-align: center;
-    background-color:#e7effd;
+    background-color: #e7effd;
     color: var(--darkgrey);
     border-bottom: 1px solid #919aa32b;
 
 }
-.calendar-days h5
-{
+
+.calendar-days h5 {
     font-weight: 500;
     font-size: 16px;
 }
-.calendar-days:first-child
-{
+
+.calendar-days:first-child {
     border-left: 1px solid #919aa32b;
 }
-.calendar-dates p
-{
+
+.calendar-dates p {
     padding: 15px;
 }
-.calendar-dates
-{
+
+.calendar-dates {
     text-align: end;
     border-left: 1px solid #919aa32b;
     border-bottom: 1px solid #919aa32b;
 }
-.calendar-events
-{
+
+.calendar-events {
     width: 100%;
     border-radius: 5px;
     background-color: var(--purple);
@@ -1842,7 +1864,70 @@ i {
     font-size: 14px;
     text-align: left;
 }
-.calendar-body .today
+
+.calendar-body .today {
+    background-color: rgba(255, 220, 40, .15);
+}
+
+.working-schedule {
+    background-color: var(--whiteColor);
+    padding: 20px;
+    border-radius: 15px;
+    margin-bottom: 25px;
+}
+
+.working-schedule .calendar-title h5 {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--darkgrey);
+    margin-bottom: 20px;
+}
+
+.working-schedule .selection .next-perv-btn
 {
-    background-color: rgba(255,220,40,.15);
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    transition: all 0.5s;
+    background-color: #f7f7f7;
+    border: none;
+}
+.working-schedule .selection .next-perv-btn:hover
+{
+    background-color: #ababab6e;
+}
+.working-schedule .selection .month-selection
+{
+    border: none;
+    background-color: transparent;
+}  
+.working-schedule .selection .month-selection h6
+{
+    font-size: 16px;
+    color: var(--darkgrey);
+    text-transform: uppercase;
+    font-weight: 500;
+    margin-right: 8px;
+} 
+
+.working-schedule-calendar
+{
+    height: 400px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-template-rows: repeat(6, 50px);
+}
+.working-schedule-calendar .schedule-days , .schedule-dates 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--darkgrey);
+    transition: all 0.5s ease;
+}
+.working-schedule-calendar .schedule-dates:hover
+{
+    border-radius: 50px;
+    background-color: #ababab6e;
 }
