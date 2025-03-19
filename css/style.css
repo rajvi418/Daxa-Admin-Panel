@@ -513,6 +513,7 @@ header::-webkit-scrollbar-thumb {
     transition: all 0.5s;
     margin-right: 5px;
     width: 20px;
+    color: var(--darkgrey);
 }
 
 .transactions-none {
