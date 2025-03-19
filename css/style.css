@@ -255,6 +255,10 @@ a {
 }
 
 /* padding */
+.py-5
+{
+    padding: 5px;
+}
 .py-0 {
     padding: 0px;
 }
@@ -278,7 +282,10 @@ a {
 .pyt-100 {
     padding-top: 100px;
 }
-
+.pb-0
+{
+    padding-bottom: 0px;
+}
 .pyb-100 {
     padding-bottom: 100px;
 }
@@ -630,7 +637,7 @@ header::-webkit-scrollbar-thumb {
 
 /* dashboard */
 .dashboard {
-    margin-bottom: 25px;
+    margin-bottom: 15px;
 }
 
 .total-sales {
@@ -657,7 +664,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .total-sales .graph {
-    padding: 8px 10px;
+    padding: 0px 10px;
 }
 
 .chart {
@@ -1248,11 +1255,6 @@ header::-webkit-scrollbar-thumb {
     height: 374px;
     width: auto;
     padding: 15px;
-}
-
-.order-summary .bottom {
-    margin-bottom: 22px;
-    /* padding: 10px; */
 }
 
 .order-summary .bottom p {
