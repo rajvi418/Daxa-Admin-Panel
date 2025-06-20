@@ -896,7 +896,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .total-orders {
-    padding: 20px;
+    padding: 21px 20px;
     color: var(--darkgrey);
     background-color: var(--whiteColor);
     border-radius: 15px;
