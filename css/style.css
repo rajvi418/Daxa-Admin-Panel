@@ -330,6 +330,10 @@ a {
     flex-wrap: wrap;
 }
 
+.d-flex {
+    display: flex;
+}
+
 .mx-auto {
     margin: auto;
 }
@@ -480,6 +484,10 @@ header::-webkit-scrollbar-thumb {
     color: rgb(83, 248, 83);
 }
 
+.fa-life-ring {
+    font-weight: 400;
+}
+
 .bi-calendar {
     width: 10px;
     height: 10px;
@@ -536,13 +544,16 @@ header::-webkit-scrollbar-thumb {
     color: var(--lightblue);
     stroke: var(--lightblue);
     fill: var(--lightblue);
-
 }
 
 .icon {
     transition: all 0.5s;
     margin-right: 5px;
     width: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
     color: var(--darkgrey);
 }
 
