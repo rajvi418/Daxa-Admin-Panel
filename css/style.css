@@ -445,13 +445,11 @@ header::-webkit-scrollbar-thumb {
 }
 
 .slider-dash {
-    border: 2px solid red;
     transition: all 2s linear;
 }
 
 .slider-dash svg {
     fill: var(--darkgrey);
-    /* border: 2px solid green; */
 }
 
 
