@@ -18,7 +18,10 @@
     --successColor: #2ed47e;
     --whiteColor: #ffffff;
     --bg-color: #eff3f9;
+    --seller-background: #ddddef;
     --black: #000000;
+    --text-color: #000000;
+    --thead-color: #e7effd;
     --borderBoxShadow: rgba(0, 0, 0, .05) 0px 6px 24px 0px, rgba(0, 0, 0, .08) 0px 0px 0px 1px;
 }
 
@@ -31,18 +34,31 @@ body {
     --darkgrey: ;
     --lightblue: #0f79f3;
     --lightgrey: #919aa3;
-    --offwhite: grey;
+    --offwhite: #ffffff12;
     --purple: #796df6;
     --dangerColor: #e74c3c;
     --infoColor: #00cae3;
     --warningColor: #ffb264;
     --successColor: #2ed47e;
-    --whiteColor: #ffffff;
-    --bg-color: #3e3e3e;
+    --whiteColor: #1b232d;
+    --bg-color: #0f172a;
+    --seller-background: #363f49;
+    --thead-color: #131920;
     --borderBoxShadow: rgba(0, 0, 0, .05) 0px 6px 24px 0px, rgba(0, 0, 0, .08) 0px 0px 0px 1px;
-
+    --text-color: #ffffff;
 }
 
+.toggle-btn {
+    position: static;
+    cursor: pointer;
+    border: none;
+    background: transparent;
+    font-size: 16px;
+}
+
+.toggle-btn:hover {
+    background: transparent;
+}
 
 .container {
     width: 100%;
@@ -74,7 +90,7 @@ body {
 /* text decoration */
 a {
     text-decoration: none;
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 /* Text colors */
@@ -416,14 +432,14 @@ img {
 .logo {
     padding: 25px 15px;
     margin-bottom: 18px;
-    background-color: white;
+    background-color: transparent;
     position: sticky;
     top: 0;
 }
 
 h1 {
     font-family: var(--outfit);
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 600;
     font-size: 24px;
     align-content: center;
@@ -453,7 +469,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .slider-dash svg {
-    fill: var(--darkgrey);
+    fill: var(--text-color);
 }
 
 
@@ -463,16 +479,16 @@ header::-webkit-scrollbar-thumb {
 
 .fa-bars {
 
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .fa-solid,
 .fa-regular {
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .bi {
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .dash {
@@ -515,7 +531,7 @@ header::-webkit-scrollbar-thumb {
 .slider-menu .topic {
     transition: all 0.5s;
     stroke: var(--darkgrey);
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 19px;
 }
 
@@ -554,7 +570,9 @@ header::-webkit-scrollbar-thumb {
     justify-content: center;
     align-items: center;
     align-content: center;
-    color: var(--darkgrey);
+    color: var(--text-color);
+    stroke: var(--text-color);
+    fill: var(--text-color);
 }
 
 .transactions-none {
@@ -622,7 +640,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .search-icon {
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .search-box {
@@ -639,7 +657,7 @@ header::-webkit-scrollbar-thumb {
     width: 25%;
     display: flex;
     align-items: center;
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 600;
     justify-content: space-between;
 }
@@ -684,7 +702,7 @@ header::-webkit-scrollbar-thumb {
 
 .total-sales {
     padding: 20px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     background-color: var(--whiteColor);
     border-radius: 15px;
     margin-bottom: 25px;
@@ -712,7 +730,7 @@ header::-webkit-scrollbar-thumb {
 .chart {
     font-size: 14px;
     font-weight: 400;
-    color: var(--lightgrey);
+    color: var(--text-color);
 }
 
 .total-sales .orders .fa-circle {
@@ -725,7 +743,7 @@ header::-webkit-scrollbar-thumb {
 
 .total-revenue {
     padding: 20px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     background-color: var(--whiteColor);
     border-radius: 15px;
     margin-bottom: 25px;
@@ -769,15 +787,13 @@ header::-webkit-scrollbar-thumb {
 
 .coin h1 {
     font-size: 40px;
-    color: var(--whiteColor);
+    color: var(--text-color);
 }
 
 .total-revenue .bottom {
     width: 100%;
     margin-top: 23px;
 }
-
-
 
 .loss {
     width: 62px;
@@ -798,7 +814,7 @@ header::-webkit-scrollbar-thumb {
 
 .profit {
     padding: 20px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     background-color: var(--whiteColor);
     border-radius: 15px;
     margin-bottom: 25px;
@@ -844,7 +860,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .best-seller {
-    background-color: #ddddef;
+    background-color: var(--seller-background);
     border-radius: 10px;
     padding: 20px 20px 0px 20px;
     font-family: var(--outfit);
@@ -874,7 +890,7 @@ header::-webkit-scrollbar-thumb {
 
 .best-seller-content p {
     font-size: 25px;
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .best-seller-content p span {
@@ -883,7 +899,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .best-seller-content h6 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     text-decoration: underline;
     font-size: 16px;
     font-weight: 500;
@@ -897,7 +913,7 @@ header::-webkit-scrollbar-thumb {
 
 .total-orders {
     padding: 21px 20px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     background-color: var(--whiteColor);
     border-radius: 15px;
     margin-bottom: 25px;
@@ -952,16 +968,21 @@ header::-webkit-scrollbar-thumb {
 }
 
 .purchase .bi-bag-heart {
-    color: var(--offwhite);
+    color: var(--text-color);
     font-size: 38px;
 }
 
 .total-customers {
     padding: 20px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     background-color: var(--whiteColor);
     border-radius: 15px;
     margin-bottom: 25px;
+}
+
+.total-customers p {
+    font-size: 14px;
+    color: var(--lightgrey);
 }
 
 .total-customers .left h4 {
@@ -981,7 +1002,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .total-customers .customers svg {
-    fill: var(--offwhite);
+    fill: var(--text-color);
 }
 
 .total-customers .amount {
@@ -1001,7 +1022,7 @@ header::-webkit-scrollbar-thumb {
     border: none;
     background-color: var(--purple);
     border-radius: 15px;
-    color: var(--offwhite);
+    color: var(--text-color);
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -1046,7 +1067,7 @@ header::-webkit-scrollbar-thumb {
     border: none;
     background-color: var(--whiteColor);
     border-radius: 15px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     padding: 20px;
     margin-bottom: 25px;
 }
@@ -1074,7 +1095,7 @@ header::-webkit-scrollbar-thumb {
     border: none;
     background-color: var(--whiteColor);
     border-radius: 15px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     padding: 20px;
     margin-bottom: 15px;
 }
@@ -1167,13 +1188,13 @@ header::-webkit-scrollbar-thumb {
 }
 
 .top-selling .top h4 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
 }
 
 .top-selling .top h5 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 15px;
 }
@@ -1211,7 +1232,7 @@ header::-webkit-scrollbar-thumb {
 .product-list .details h6 {
     font-weight: 400;
     font-size: 18px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 5px;
 }
 
@@ -1267,13 +1288,13 @@ header::-webkit-scrollbar-thumb {
 }
 
 .order-summary .top h4 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
 }
 
 .order-summary .top h5 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 15px;
 }
@@ -1284,7 +1305,7 @@ header::-webkit-scrollbar-thumb {
 
 .order-summary .orders-detail p {
     font-size: 15px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 10px;
 }
 
@@ -1328,13 +1349,13 @@ header::-webkit-scrollbar-thumb {
 }
 
 .top-sellers .top h4 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
 }
 
 .top-sellers .top h5 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 15px;
 }
@@ -1372,7 +1393,7 @@ header::-webkit-scrollbar-thumb {
 .sellers-list .seller-detail h6 {
     font-weight: 400;
     font-size: 18px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 5px;
 }
 
@@ -1396,7 +1417,7 @@ header::-webkit-scrollbar-thumb {
 .locations h5 {
     font-size: 18px;
     font-weight: 500;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 25px;
 }
 
@@ -1429,7 +1450,7 @@ header::-webkit-scrollbar-thumb {
 .locations .country .county-name p {
     font-weight: 500;
     font-size: 15px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-right: 5px;
 }
 
@@ -1444,13 +1465,13 @@ header::-webkit-scrollbar-thumb {
 }
 
 .world-revenue .top h4 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
 }
 
 .world-revenue .top h5 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 15px;
 }
@@ -1489,7 +1510,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .recent-orders .top h4 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
 }
@@ -1499,7 +1520,7 @@ header::-webkit-scrollbar-thumb {
 }
 
 .recent-order-search-box h5 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 15px;
 }
@@ -1513,12 +1534,12 @@ table {
 }
 
 thead th {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-size: 16px;
     font-weight: 500;
-    background-color: #e7effd;
-    /* border: none; */
-    padding: 15px;
+    background-color: var(--thead-color);
+    border: 1px solid var(--thead-color);
+    padding: 15px 0px;
     text-align: left;
 }
 
@@ -1543,7 +1564,7 @@ tbody td {
 .customers h6 {
     font-size: 16px;
     font-weight: 500;
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .created-date {
@@ -1651,13 +1672,13 @@ tbody .rejected p {
 }
 
 .transactions-history .top h4 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 500;
     font-size: 18px;
 }
 
 .transactions-history .top h5 {
-    color: var(--darkgrey);
+    color: var(--text-color);
     font-weight: 400;
     font-size: 15px;
 }
@@ -1725,7 +1746,7 @@ tbody .rejected p {
 .transactions-list .list-detail .info h6 {
     font-size: 18px;
     font-weight: 400;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 5px;
 }
 
@@ -1794,7 +1815,7 @@ footer {
 
 .footer-containt p .daxa-logo {
     font-size: 16px;
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .footer-containt p .daxa-text {
@@ -1816,7 +1837,7 @@ footer {
 .calendar-header .calendar-title h5 {
     font-size: 18px;
     font-weight: 500;
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .calendar-dashboard i {
@@ -1833,7 +1854,7 @@ i {
 .calendar-header .calendar-others .calendar-page h6 {
     font-size: 15px;
     font-weight: 400;
-    color: var(--darkgrey);
+    color: var(--text-color);
 }
 
 .mega-calendar {
@@ -1862,7 +1883,7 @@ i {
     width: 100%;
     height: 900px;
     display: grid;
-    color: var(--darkgrey);
+    color: var(--text-color);
     grid-template-rows: 50px repeat(6, 1fr);
     grid-template-columns: repeat(7, 1fr);
     border-top: 1px solid #919aa32b;
@@ -1875,7 +1896,7 @@ i {
     align-content: center;
     text-align: center;
     background-color: #e7effd;
-    color: var(--darkgrey);
+    color: var(--text-color);
     border-bottom: 1px solid #919aa32b;
 
 }
@@ -1923,7 +1944,7 @@ i {
 .working-schedule .calendar-title h5 {
     font-size: 18px;
     font-weight: 500;
-    color: var(--darkgrey);
+    color: var(--text-color);
     margin-bottom: 20px;
 }
 
@@ -1947,7 +1968,7 @@ i {
 
 .working-schedule .selection .month-selection h6 {
     font-size: 16px;
-    color: var(--darkgrey);
+    color: var(--text-color);
     text-transform: uppercase;
     font-weight: 500;
     margin-right: 8px;
@@ -1966,7 +1987,7 @@ i {
     display: flex;
     justify-content: center;
     align-items: center;
-    color: var(--darkgrey);
+    color: var(--text-color);
     transition: all 0.5s ease;
 }
 
