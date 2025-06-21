@@ -2000,3 +2000,74 @@ i {
     border-radius: 50px;
     background-color: #ababab6e;
 }
+
+.working-schedule-event {
+    padding: 20px 0px 0px 0px;
+}
+
+.working-schedule-event .schedule-heading h2 {
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: var(--text-color);
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-1,
+.working-schedule-event .schedule-event-list .schedule-event-2,
+.working-schedule-event .schedule-event-list .schedule-event-3 {
+    padding: 15px 0px 10px 0px;
+    border-bottom: 1px dashed var(--lightgrey);
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-1 .event-duration,
+.working-schedule-event .schedule-event-list .schedule-event-2 .event-duration,
+.working-schedule-event .schedule-event-list .schedule-event-3 .event-duration {
+    padding: 0px 0px 10px 25px;
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-1 .event-name h3,
+.working-schedule-event .schedule-event-list .schedule-event-2 .event-name h3,
+.working-schedule-event .schedule-event-list .schedule-event-3 .event-name h3 {
+    margin-bottom: 10px;
+    color: var(--lightgrey);
+    font-weight: 500;
+    font-size: 16px;
+    font-family: var(--outfit);
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-1 .event-duration .event-date,
+.working-schedule-event .schedule-event-list .schedule-event-2 .event-duration .event-date,
+.working-schedule-event .schedule-event-list .schedule-event-3 .event-duration .event-date {
+    color: var(--lightblue);
+    font-size: 16px;
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-1 .event-duration .event-time,
+.working-schedule-event .schedule-event-list .schedule-event-2 .event-duration .event-time,
+.working-schedule-event .schedule-event-list .schedule-event-3 .event-duration .event-time {
+    color: var(--lightgrey);
+    font-size: 16px;
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-1 .fa-circle {
+    color: var(--infoColor);
+    font-size: 10px;
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-2 .fa-circle {
+    font-size: 10px;
+    color: var(--lightblue);
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-3 .fa-circle {
+    font-size: 10px;
+    color: var(--warningColor);
+}
+
+.working-schedule-event .schedule-event-list .schedule-event-4 {
+    font-size: 18px;
+    text-transform: capitalize;
+    color: var(--lightblue);
+    text-align: right;
+    padding-top: 15px;
+}
